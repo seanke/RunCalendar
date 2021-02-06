@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RunCalendar</string>
+    <string name="title_plan">Plan</string>
+    <string name="title_execution">Execution</string>
+    <string name="title_analyse">Analyse</string>
+    <string name="title_profile">Profile</string>
+</resources>

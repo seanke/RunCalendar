@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_plan">
+
+    <fragment
+        android:id="@+id/navigation_plan"
+        android:name="com.seanke.runcalendar.ui.plan.PlanFragment"
+        android:label="@string/title_plan"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/navigation_execution"
+        android:name="com.seanke.runcalendar.ui.execution.ExecutionFragment"
+        android:label="@string/title_execution"
+        tools:layout="@layout/fragment_execution" />
+
+    <fragment
+        android:id="@+id/navigation_analyse"
+        android:name="com.seanke.runcalendar.ui.analyse.AnalyseFragment"
+        android:label="@string/title_analyse"
+        tools:layout="@layout/fragment_analyse" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.seanke.runcalendar.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
