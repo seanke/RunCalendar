@@ -1,4 +1,4 @@
-package com.seanke.runcalendar.ui.plan
+package com.seanke.runcalendar.ui.main.plan
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

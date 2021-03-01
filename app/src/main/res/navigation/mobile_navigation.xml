@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_plan"
-        android:name="com.seanke.runcalendar.ui.plan.PlanFragment"
+        android:name="com.seanke.runcalendar.ui.main.plan.PlanFragment"
         android:label="@string/title_plan"
         tools:layout="@layout/fragment_plan" />
 
     <fragment
         android:id="@+id/navigation_execution"
-        android:name="com.seanke.runcalendar.ui.execution.ExecutionFragment"
+        android:name="com.seanke.runcalendar.ui.main.execution.ExecutionFragment"
         android:label="@string/title_execution"
         tools:layout="@layout/fragment_execution" />
 
     <fragment
         android:id="@+id/navigation_analyse"
-        android:name="com.seanke.runcalendar.ui.analyse.AnalyseFragment"
+        android:name="com.seanke.runcalendar.ui.main.analyse.AnalyseFragment"
         android:label="@string/title_analyse"
         tools:layout="@layout/fragment_analyse" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.seanke.runcalendar.ui.profile.ProfileFragment"
+        android:name="com.seanke.runcalendar.ui.main.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

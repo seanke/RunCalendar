@@ -1,26 +1,25 @@
-package com.seanke.runcalendar.ui.profile
+package com.seanke.runcalendar.ui.main.execution
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.seanke.runcalendar.R
 
-class ProfileFragment : Fragment() {
+class ExecutionFragment : Fragment() {
 
-    private lateinit var profileViewModel: ProfileViewModel
+    private lateinit var executionViewModel: ExecutionViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        profileViewModel =
-                ViewModelProvider(this).get(ProfileViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_execution, container, false)
+        executionViewModel =
+                ViewModelProvider(this).get(ExecutionViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_analyse, container, false)
 
         return root
     }

@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.execution.ExecutionFragment">
+    tools:context=".ui.main.execution.ExecutionFragment">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

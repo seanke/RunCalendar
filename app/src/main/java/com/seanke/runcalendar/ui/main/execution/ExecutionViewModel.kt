@@ -1,13 +1,13 @@
-package com.seanke.runcalendar.ui.analyse
+package com.seanke.runcalendar.ui.main.execution
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AnalyseViewModel : ViewModel() {
+class ExecutionViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "This is notifications Fragment"
     }
     val text: LiveData<String> = _text
 }
